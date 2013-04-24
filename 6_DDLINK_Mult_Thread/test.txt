@@ -1,0 +1,68 @@
+***********************Beginning!!!*************************
+global_count is 0, gddlink_update is 0
+thread_dispaly....
+**********Lock Operation!!!!!!!!
+thread_insert....
+**********Lock Operation!!!!!!!!
+Insert element 1
+**********UnLock Operation!!!!!!!!
+1
+**********UnLock Operation!!!!!!!!
+
+global_count is 1, gddlink_update is 0
+thread_dispaly....
+**********Lock Operation!!!!!!!!
+thread_insert....
+**********Lock Operation!!!!!!!!
+Insert element 2
+**********UnLock Operation!!!!!!!!
+2
+1
+**********UnLock Operation!!!!!!!!
+
+global_count is 2, gddlink_update is 0
+thread_dispaly....
+**********Lock Operation!!!!!!!!
+thread_insert....
+**********Lock Operation!!!!!!!!
+Insert element 3
+**********UnLock Operation!!!!!!!!
+3
+2
+1
+**********UnLock Operation!!!!!!!!
+
+global_count is 3, gddlink_update is 0
+thread_dispaly....
+**********Lock Operation!!!!!!!!
+thread_insert....
+**********Lock Operation!!!!!!!!
+Insert element 4
+**********UnLock Operation!!!!!!!!
+4
+3
+2
+1
+**********UnLock Operation!!!!!!!!
+
+global_count is 4, gddlink_update is 0
+thread_dispaly....
+**********Lock Operation!!!!!!!!
+thread_insert....
+**********Lock Operation!!!!!!!!
+Insert element 5
+**********UnLock Operation!!!!!!!!
+5
+4
+3
+2
+1
+**********UnLock Operation!!!!!!!!
+
+***************Final DDLink showing***********************
+5
+4
+3
+2
+1
+**********ЫЌНу*************

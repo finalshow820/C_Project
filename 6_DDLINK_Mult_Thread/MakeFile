@@ -1,0 +1,8 @@
+Test: dd_link_2_2.o locker_pthread.o
+gcc dd_link_2_2.o locker_pthread.o -o test
+
+dd_link_2_2.o: dd_link_2_2.c
+gcc -g dd_link_2_2.c -lpthread -o dd_link_2_2.o
+
+locker_pthread.o: locker_pthread.c
+gcc -g locker_pthread.c -lpthread -o locker_pthread.o
